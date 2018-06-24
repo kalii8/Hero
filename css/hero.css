@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#map {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url("https://classes.codingbootcamp.cz/assets/classes/workouts/tiles.jpg");
+    background-position: left top;
+    background-size: 200px auto;
+
+}
+
+#hero {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://classes.codingbootcamp.cz/assets/classes/workouts/hero.png");
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+
+#ghost {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://classes.codingbootcamp.cz/assets/classes/workouts/ghost.png");
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
